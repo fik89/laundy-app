@@ -1,11 +1,11 @@
 <?php require_once('_header.php') ?>
 
-<di class="video-btn">
+<div class="video-btn">
    <a href="#overlay">
       <img src="<?= url('_assets/img/play.svg') ?>" alt="play icon">
       <p>Company Video</p>
    </a>
-</di>
+</div>
 
 <div class="overlay video-play" id="overlay">
    <a href="#">&times;</a>
